@@ -149,5 +149,8 @@ newEmployeeList[destinationId].employees[sourceId] = true
 
 If user wants to export the JSON structure for futher usage or we need to perform an API call at some point, I've also added the logic for de-normalizing the structure.
 
+## LICENSE
+MIT. Anything you would like to do.
+
 ## Conclusion
 The requirements for the solution to the problem I was given, matched my solution and I'm not sure what I missed. But that doesn't matter as I really enjoyed building this project and learned a lot. Would love to know opion from you guys.
