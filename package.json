@@ -1,0 +1,46 @@
+{
+  "name": "organigram",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "NODE_ENV=production npm run clean && webpack -p",
+    "serve:dev": "webpack-dev-server",
+    "serve": "http-server dist",
+    "test": "jest --verbose"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.1.4",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^5.3.0",
+    "eslint-plugin-react": "^7.10.0",
+    "html-webpack-plugin": "^2.24.1",
+    "image-webpack-loader": "^4.3.1",
+    "jest": "^23.5.0",
+    "regenerator-runtime": "^0.12.1",
+    "rimraf": "^2.5.4",
+    "style-loader": "^0.13.1",
+    "url-loader": "^1.0.1",
+    "webpack": "^2.2.0-rc.0",
+    "webpack-dev-server": "^2.2.0-rc.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dnd": "^5.0.0",
+    "react-dnd-html5-backend": "^5.0.1",
+    "react-dom": "^16.4.2",
+    "react-dropzone": "^4.3.0",
+    "react-redux": "^4.4.6",
+    "react-router": "^3.0.0",
+    "redux": "^3.6.0"
+  }
+}

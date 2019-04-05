@@ -1,0 +1,118 @@
+/**
+ * container styles
+ */
+.employeeNodeContainer {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.employeeNodeRow {
+  display: flex;
+  align-items: center;
+  margin: 6px 0px;
+}
+
+.employeeNodeRow::before {
+  content: '';
+  position: absolute;
+  left: -29px;
+  width: 27px;
+  height: 1px;
+  border-top: 1px dashed #ddd;
+}
+
+.employeeSubordinatesContainer {
+  margin-left: 10px;
+  padding-left: 30px;
+  border-left: 1px dashed #ddd;
+}
+
+/* .employeeSubordinatesContainer:last-child {
+  border-left: 1px dashed #fff;
+} */
+
+/**
+ * collapse icon styles
+ */
+.collapseIconContainer {
+  position: absolute;
+  left: -44px;
+
+  width: 28px;
+  height: 28px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  transform: rotate(90deg);
+  transition: all 0.3s;
+  
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+.collapseIconContainer:hover {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+
+.collapseIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.collapsed {
+  transform: rotate(0deg);
+}
+
+/**
+ * node styles
+ */
+.employeeInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 10px 40px 10px 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+
+  cursor: move;
+  transition: all 0.3s;
+}
+
+.employeeInfoContainer:hover {
+  /* background-color: aqua; */
+  /* background-color: rgba(0, 0, 0, 0.06); */
+  background-color: aquamarine;
+}
+
+.employeeName {
+  margin-bottom: 2px;
+  
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.employeePosition {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #444;
+}
+
+.dropContainer {
+  display: flex;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.3s;
+}
+
+.dropBackground { 
+  background-color: aquamarine;
+}

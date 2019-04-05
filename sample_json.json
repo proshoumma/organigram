@@ -1,0 +1,77 @@
+{
+  "Professor Albus Dumbledore": {
+    "position": "CEO",
+    "employees": [
+      {
+        "Professor McGonagall": {
+          "position": "VP Engineering",
+          "employees": [
+            {
+              "Harry Potter": {
+                "position": "Frontend Lead",
+                "employees": [
+                  {
+                    "Hermione Granger": {
+                      "position": "Frontend Engineer",
+                      "employees": []
+                    }
+                  },
+                  {
+                    "Ron Weasley": {
+                      "position": "Frontend Engineer",
+                      "employees": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Ginny Weasley": {
+                "position": "Art Director",
+                "employees": [
+                  {
+                    "Luna Lovegood": {
+                      "position": "UX Designer",
+                      "employees": []
+                    }
+                  },
+                  {
+                    "Neville Longbottom": {
+                      "position": "UX Designer",
+                      "employees": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Professor Severus Snape": {
+          "position": "Director of Digital Business Solution",
+          "employees": [
+            {
+              "Draco Malfoy": {
+                "position": "Project Manager",
+                "employees": []
+              }
+            },
+            {
+              "Bellatrix Lestrange": {
+                "position": "Project Manager",
+                "employees": []
+              }
+            },
+            {
+              "Peter Pettigrew": {
+                "position": "Project Manager",
+                "employees": []
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

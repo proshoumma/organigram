@@ -1,0 +1,70 @@
+.organigramViewContainer {
+  width: 960px;
+}
+
+/**
+ * top bar styles
+ */
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.topBarLogo {
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+  color: #444;
+}
+
+.navContainer {
+  display: flex;
+}
+
+.navButton {
+  padding: 0px 10px;
+
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  user-select: none;
+
+  color: var(--theme-color);
+  cursor: pointer;
+}
+
+.navButton:hover {
+  color: var(--theme-color-deep);
+}
+
+/**
+ * tree container styles
+ */
+.treeContainerBox {
+  padding: 20px 25px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: var(--content-box-shadow);
+}
+
+.messageBox {
+  margin-bottom: 10px;
+  
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  
+  color: #666;
+}
+
+.treeContainer {
+  display: flex;
+  padding-left: 30px;
+  border: 1px dashed #ddd;
+}
+
+.noData {
+  padding: 10px 0px;
+}
