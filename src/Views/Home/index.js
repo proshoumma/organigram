@@ -86,7 +86,7 @@ class HomeView extends Component {
             htmlFor="file"
             className="inputLabel"
           >
-            or, bowse a file from computer
+            or, browse a file from computer
           </label>
         </Dropzone>
 
