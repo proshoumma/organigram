@@ -3,6 +3,7 @@ import Dropzone from 'react-dropzone'
 import { connect } from 'react-redux'
 import propTypes from 'prop-types'
 
+import sampleJsonData from '../../sample_json.json'
 import normalizeDataStructure from '../../utilities/normalizeDataStructure'
 import { updateEmployeeData } from '../../globals/actions'
 import './styles.css'
@@ -48,6 +49,19 @@ class HomeView extends Component {
     if (files[0]) this.hanldleFileInput(files[0])
   }
 
+  parseDemoData() {
+    const { updateEmployeeData } = this.props
+
+    // normalize the data for better performance and data validation
+    const normalizedData = normalizeDataStructure(sampleJsonData)
+
+    // update redux state with the employee data
+    updateEmployeeData(normalizedData)
+
+    // push to organigram screen
+    this.props.router.push('organigram_view')
+  }
+
   render() {
     const { error } = this.state
 
@@ -88,6 +102,12 @@ class HomeView extends Component {
           >
             or, browse a file from computer
           </label>
+          <button
+            className="dummyDataButton"
+            onClick={() => { this.parseDemoData() }}
+          >
+            Try with demo data
+          </button>
         </Dropzone>
 
         <div className="errorMessage">

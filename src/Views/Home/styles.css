@@ -87,6 +87,25 @@
 	outline: -webkit-focus-ring-color auto 5px;
 }
 
+.dummyDataButton {
+  margin: 0px;
+  background: none;
+  border: none;
+  outline: none;
+
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #aaa;
+  font-weight: 500;
+
+  transition: color 0.3s;
+}
+
+.dummyDataButton:hover {
+  color: #444;
+  transition: color 0.3s;
+}
+
 /**
  * error message styling
  */

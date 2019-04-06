@@ -10,7 +10,7 @@ A JSON based tree structure with drag and drop functionally to re-arrange the tr
 Help Personia to enjoy her work! 🎉
 
 ## Live
-You can try the app at [http://organigram.surge.sh](http://organigram.surge.sh). A sample JSON data for testing the functionality can be found [here](./sample_json.json).
+You can try the app at [http://organigram.surge.sh](http://organigram.surge.sh). A sample JSON data for testing the functionality can be found [here](./src/sample_json.json).
 
 ## Technology Stack
 * [react](https://reactjs.org/)
