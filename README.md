@@ -2,12 +2,10 @@
 ![javascript](https://forthebadge.com/images/badges/made-with-javascript.svg)
 
 # Organigram
-A JSON based tree structure with drag and drop functionally to re-arrange the tree. Show-cases some useful tree operations for deeply nested JSON data and webpack configuration for reducing bundle sizes. It was an interview question from a company in Munich. Fortunately, I didn't got the job. 😎
+A JSON based tree structure with drag and drop functionally to re-arrange the tree. Show-cases some useful tree operations for deeply nested JSON data and webpack configuration for reducing bundle sizes. It was an interview question from a company in Munich.
 
 ![preview1](./previews/preview_1.png)
 ![preview](./previews/preview_2.png)
-
-Help Personia to enjoy her work! 🎉
 
 ## Live
 You can try the app at [http://organigram.surge.sh](http://organigram.surge.sh). A sample JSON data for testing the functionality can be found [here](./src/sample_json.json).
