@@ -32,7 +32,7 @@
     "webpack-dev-server": "^2.2.0-rc.0"
   },
   "dependencies": {
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.2",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dnd": "^5.0.0",
