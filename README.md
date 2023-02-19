@@ -2,7 +2,7 @@
 ![javascript](https://forthebadge.com/images/badges/made-with-javascript.svg)
 
 # Organigram
-A JSON based tree structure with drag and drop functionally to re-arrange the tree. Show-cases some useful tree operations for deeply nested JSON data and webpack configuration for reducing bundle sizes. It was an interview question from a company in Munich.
+A JSON based tree structure with drag and drop functionally to re-arrange the tree. Show-cases some useful tree operations for deeply nested JSON data and webpack configuration for reducing bundle sizes.
 
 ![preview1](./previews/preview_1.png)
 ![preview](./previews/preview_2.png)
@@ -149,6 +149,3 @@ If user wants to export the JSON structure for futher usage or we need to perfor
 
 ## LICENSE
 MIT. Anything you would like to do.
-
-## Conclusion
-The requirements for the solution to the problem I was given, matched my solution and I'm not sure what I missed. But that doesn't matter as I really enjoyed building this project and learned a lot. Would love to know opion from you guys.
